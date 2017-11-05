@@ -1,0 +1,82 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: "Join a Meetup"
+  url: "/design/"
+  side: left
+  dropdown:
+  - title: "Product Owner Quarterly"
+    url: "/design/grid/"
+  - title: "Scrum Master Monthly"
+    url: "/design/typography/typography/"
+  - title: ""
+    url: "/design/page/"
+  - title: "Post-Left-Sidebar"
+    url: "/design/post-left-sidebar/"
+  - title: "Post-Right-Sidebar"
+    url: "/design/post-right-sidebar/"
+  - title: "Page Full-Width"
+    url: "/design/page-fullwidth/"
+  - title: "Blog-Page"
+    url: "/blog/"
+  - title: "Video"
+    url: "/design/video/"
+  - title: "Gallery"
+    url: "/design/gallery/"
+  - title: "Portfolio"
+    url: "/design/portfolio/"
+
+- title: "Host a Meetup"
+  url: "/headers/"
+  side: left
+
+- title: "Be a Sponsor"
+  url: "/documentation/"
+  side: left
+
+- title: "Event Calendar"
+  url: "/documentation/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+
+- title: About
+  url: "/blog/"
+  side: left
+
+
+- title: "Debug"
+  url: "/design/"
+  side: left
+  dropdown:
+  - title: "Grid & Colors"
+    url: "/design/grid/"
+  - title: "Typography"
+    url: "/design/typography/typography/"
+  - title: "Page/Post"
+    url: "/design/page/"
+  - title: "Post-Left-Sidebar"
+    url: "/design/post-left-sidebar/"
+  - title: "Post-Right-Sidebar"
+    url: "/design/post-right-sidebar/"
+  - title: "Page Full-Width"
+    url: "/design/page-fullwidth/"
+  - title: "Blog-Page"
+    url: "/blog/"
+  - title: "Video"
+    url: "/design/video/"
+  - title: "Gallery"
+    url: "/design/gallery/"
+  - title: "Portfolio"
+    url: "/design/portfolio/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
