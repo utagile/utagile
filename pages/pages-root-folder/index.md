@@ -15,12 +15,12 @@ widget1:
 widget2:
   title: "Scrum Masters"
   url: 'http://phlow.github.io/feeling-responsive/info/'
-  image: scrummaster.png
+  image: Scrummaster.png
   text: 'Do you help development teams get the most out of Agile / Scrum practice? Come join our quarterly meetup to discuss team building activities, conflict resolution, and facilitation, and other core Scrum Master skills. '
 widget3:
   title: "Developers"
   url: 'https://github.com/Phlow/feeling-responsive'
-  image: developer.png
+  image: Developer.png
   text: 'Developers need Agile education and skill building as much as anyone! Come join any of our regular meetups and learn from fellow developers, DevOps practitioners, and business analysts. Agile isnt just for Product Owners and Scrum Masters.'
 #
 # Use the call for action to show a button on the frontpage
