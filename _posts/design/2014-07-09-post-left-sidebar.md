@@ -10,9 +10,11 @@ tags:
 categories:
     - design
 image:
-    thumb: gallery-example-3-thumb.jpg
-    title: gallery-example-3.jpg
+    thumb: activity_header13_thumb.jpg
+    title: activity_header13.png
     caption_url: http://unsplash.com
+header:
+   image_fullwidth: activity_header13.png
 ---
 *Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 <!--more-->

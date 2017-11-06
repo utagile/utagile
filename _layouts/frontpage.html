@@ -2,23 +2,6 @@
 layout: default
 format: frontpage
 
-gallery:
-    - image_url: gallery-example-1.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-2.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-3.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-4.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-5.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-6.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-7.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-8.jpg
-      caption: Great images by Unsplash.com
 ---
 <div id="header-home">
     <div class="row">
@@ -33,28 +16,39 @@ gallery:
             <h2>Uniting and Empowering Utah's Agile Community<sup>TM</sup></h2>
         </div>
     </div>
+    <div class="row">
+        <div class="small-4 columns">
+            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/scrumalliance.png" ></a>
+        </div>
+        <div class="small-4 columns">
+            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_alliance.png" ></a>
+        </div>
+        <div class="small-4 columns">
+            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_network.png" ></a>
+        </div>
+    </div>
 </div>
+
 
 {% comment %}
 *
-* First check, if widget is empty or not by checking if there is a title
+* First check, if there is a call for action-button
 *
 {% endcomment %}
-<div class="row t60">
-	{% if page.widget1.title %}
-		{% include _frontpage-sponsors.html widget=page.widget1 %}
-	{% endif %}
-
-
-	{% if page.widget2.title %}
-		{% include _frontpage-sponsors.html widget=page.widget2 %}
-	{% endif %}
-
-
-	{% if page.widget3.title %}
-		{% include _frontpage-sponsors.html widget=page.widget3 %}
-	{% endif %}
-</div><!-- /.row -->
+{% if page.callforaction.url contains 'http' %}
+{% assign url = '' %}
+{% else %}
+{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+{% endif %}
+{% if page.callforaction %}
+   <div id="header-cta">
+    <div class="row t60 b60">
+        <div class="small-12 text-center columns">
+            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+    </div>
+{% endif %}
 
 {% comment %}
 *
@@ -88,19 +82,47 @@ gallery:
 {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
 {% endif %}
 {% if page.callforaction %}
+<div id="header-cta2">
     <div class="row t60 b60">
         <div class="small-12 text-center columns">
             <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
+</div>
 {% endif %}
+<div id="locations">
+<div class="row t60">
+    <h2>Find a location near you</h2>
+</div>
+<div class="row t60">
+    <div class="small-4 columns">
+        <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slc.png"></a>
+    </div>
+    <div class="small-4 columns">
+        <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/utah.png"></a>
+    </div>
+    <div class="small-4 columns">
+        <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/lehi.png"></a>
+    </div>
+</div>
+</div>
 
-<div class="row t30 b20 homepage">
-    <div class="small-12 columns">
-    {% include gallery %} 
-    </div> 
-</div>       
-
+<div id="sponsors">
+<div class="row t60">
+    <h2>Thanks to our many sponsors</h2>
+</div>
+<div class="row t60">
+    <div class="small-4 columns">
+        <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slc.png"></a>
+    </div>
+    <div class="small-4 columns">
+        <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/utah.png"></a>
+    </div>
+    <div class="small-4 columns">
+        <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/lehi.png"></a>
+    </div>
+</div>
+</div>
 {% comment %}
 *
 * First check, if there are any posts at all

@@ -169,3 +169,30 @@ img.lazy {
     text-align: center;
     margin: 0 auto;
 }
+#header-cta {
+    margin-top: 0;
+    background-image: url(../../images/activity_header09.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+#header-cta a {
+    background: $ci-1;
+}
+#header-cta2 {
+    margin-top: 0;
+    background-image: url(../../images/activity_header01.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+#header-cta2 a {
+    background: $ci-1;
+}
+#locations {
+    margin-top: 0;
+    background-color: $ci-5;
+}
+#locations h2 {
+    text-align: center;
+    color: $ci-1;
+            padding: 10px;
+}
