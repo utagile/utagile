@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>RSS Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/utagile/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="http://localhost:4000/utagile/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -38,13 +38,13 @@
 	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
 	
 	
-	<link rel="canonical" href="http://localhost:4000/utagile/assets/xslt/rss.xslt">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/rss.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="Utah Agile is a non-profit organization for agile professionals in Utah who need local support for advancing the agile mindset in their individual circumstances. As a regional professional community, we promote awareness and strength of agile adoption in the state of Utah. Unlike smaller local user groups, our organization provides multiple meetup and networking options relevant to common interests and geographies throughout Utah, which supports our strategy to increase agility throughout Utah.">
-	<meta property="og:url" content="http://localhost:4000/utagile/assets/xslt/rss.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Utah Agile">
@@ -62,34 +62,34 @@
 	
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/utagile/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
 	
 
-	<link rel="icon" sizes="32x32" href="http://localhost:4000/utagile/assets/img/favicon-32x32.png">
+	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png">
 
-	<link rel="icon" sizes="192x192" href="http://localhost:4000/utagile/assets/img/touch-icon-192x192.png">
+	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-180x180-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-152x152-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-120x120-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-76x76-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/utagile/assets/img/apple-touch-icon-precomposed.png">	
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
 
-	<meta name="msapplication-TileImage" content="http://localhost:4000/utagile/assets/img/msapplication_tileimage.png">
+	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png">
 
 	<meta name="msapplication-TileColor" content="#fabb00">
 
@@ -104,7 +104,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000/utagile"><img src="http://localhost:4000/utagile/assets/img/small_32.png"> Utah Agile</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000"><img src="http://localhost:4000/assets/img/small_32.png"> Utah Agile</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -169,7 +169,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/utagile/search/">Search</a></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
 
             
             
@@ -183,7 +183,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/utagile/contact/">Contact</a></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -202,7 +202,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/utagile/">Home</a></li>
+              <li><a  href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -219,59 +219,59 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/utagile/design/">Join a Meetup</a>
+                <a  href="http://localhost:4000/design/">Join a Meetup</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/grid/">Product Owner Quarterly</a></li>
+                      <li><a  href="http://localhost:4000/design/grid/">Product Owner Quarterly</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/typography/typography/">Scrum Master Monthly</a></li>
+                      <li><a  href="http://localhost:4000/design/typography/typography/">Scrum Master Monthly</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/page/"></a></li>
+                      <li><a  href="http://localhost:4000/design/page/"></a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
+                      <li><a  href="http://localhost:4000/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
+                      <li><a  href="http://localhost:4000/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/page-fullwidth/">Page Full-Width</a></li>
+                      <li><a  href="http://localhost:4000/design/page-fullwidth/">Page Full-Width</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/blog/">Blog-Page</a></li>
+                      <li><a  href="http://localhost:4000/blog/">Blog-Page</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/video/">Video</a></li>
+                      <li><a  href="http://localhost:4000/design/video/">Video</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/gallery/">Gallery</a></li>
+                      <li><a  href="http://localhost:4000/design/gallery/">Gallery</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/portfolio/">Portfolio</a></li>
+                      <li><a  href="http://localhost:4000/design/portfolio/">Portfolio</a></li>
                     
                   </ul>
 
@@ -288,7 +288,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/utagile/headers/">Host a Meetup</a></li>
+              <li><a  href="http://localhost:4000/headers/">Host a Meetup</a></li>
               <li class="divider"></li>
 
             
@@ -303,7 +303,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/utagile/documentation/">Be a Sponsor</a></li>
+              <li><a  href="http://localhost:4000/documentation/">Be a Sponsor</a></li>
               <li class="divider"></li>
 
             
@@ -318,7 +318,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/utagile/documentation/">Event Calendar</a></li>
+              <li><a  href="http://localhost:4000/documentation/">Event Calendar</a></li>
               <li class="divider"></li>
 
             
@@ -333,7 +333,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/utagile/blog/">Blog</a></li>
+              <li><a  href="http://localhost:4000/blog/">Blog</a></li>
               <li class="divider"></li>
 
             
@@ -348,7 +348,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/utagile/about/">About</a></li>
+              <li><a  href="http://localhost:4000/about/">About</a></li>
               <li class="divider"></li>
 
             
@@ -365,59 +365,59 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/utagile/design/">Debug</a>
+                <a  href="http://localhost:4000/design/">Debug</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/grid/">Grid &amp; Colors</a></li>
+                      <li><a  href="http://localhost:4000/design/grid/">Grid &amp; Colors</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/typography/typography/">Typography</a></li>
+                      <li><a  href="http://localhost:4000/design/typography/typography/">Typography</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/page/">Page/Post</a></li>
+                      <li><a  href="http://localhost:4000/design/page/">Page/Post</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
+                      <li><a  href="http://localhost:4000/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
+                      <li><a  href="http://localhost:4000/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/page-fullwidth/">Page Full-Width</a></li>
+                      <li><a  href="http://localhost:4000/design/page-fullwidth/">Page Full-Width</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/blog/">Blog-Page</a></li>
+                      <li><a  href="http://localhost:4000/blog/">Blog-Page</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/video/">Video</a></li>
+                      <li><a  href="http://localhost:4000/design/video/">Video</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/gallery/">Gallery</a></li>
+                      <li><a  href="http://localhost:4000/design/gallery/">Gallery</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/utagile/design/portfolio/">Portfolio</a></li>
+                      <li><a  href="http://localhost:4000/design/portfolio/">Portfolio</a></li>
                     
                   </ul>
 
@@ -449,8 +449,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/utagile/" title="Utah Agile – Mindset Elevated">
-				<img src="http://localhost:4000/utagile/assets/img/logo.png" alt="Utah Agile – Mindset Elevated">
+			<a id="logo" href="http://localhost:4000/" title="Utah Agile – Mindset Elevated">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Utah Agile – Mindset Elevated">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -528,7 +528,7 @@
 
             <p class="shadow-black">
               <p><b>Utah Agile</b> is a non-profit organization for agile professionals in Utah who need local support for advancing the agile mindset in their individual circumstances. As a regional professional community, we promote awareness and strength of agile adoption in the state of Utah.</p><p> Unlike smaller local user groups, our organization provides multiple meetup and networking options relevant to common interests and geographies throughout Utah, which supports our strategy to increase agility throughout Utah.</p>
-              <a href="http://localhost:4000/utagile/info/">More ›</a>
+              <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -552,27 +552,27 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/utagile"  title=""></a>
+                    <a href="http://localhost:4000"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/utagile/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/utagile/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/utagile/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/utagile/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -582,7 +582,7 @@
           <div class="small-6 medium-3 large-3 columns">
             
               
-                <h5 class="shadow-black">Dankeschön</h5>
+                <h5 class="shadow-black">Networks</h5>
               
             
               
@@ -598,7 +598,7 @@
             
               
                 <li >
-                  <a href="http://localhost:4000/utagile"  title=""></a>
+                  <a href="http://localhost:4000"  title=""></a>
                 </li>
             
               
@@ -654,7 +654,7 @@
 		
 
 
-<script src="http://localhost:4000/utagile/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 

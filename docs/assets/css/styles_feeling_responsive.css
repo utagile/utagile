@@ -8894,40 +8894,41 @@ img.lazy {
 #header-subhome h2 {
   color: #00487A;
   margin: 0 0 0 0;
+  padding: 0;
 }
 
-/* line 160, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 161, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #header-subhome sup {
   color: #00487A;
   font-size: xx-small;
   vertical-align: super;
 }
 
-/* line 165, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 166, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 .frontpage-widget a {
   text-align: center;
 }
 
-/* line 168, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 169, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 .frontpage-widget center_button {
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 172, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 173, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #header-cta {
   margin-top: 0;
-  background-image: url(../../images/activity_header09.jpg);
-  background-size: cover;
-  padding: 30px;
+  /*    background-image: url(../../images/activity_header09.jpg);
+      background-size: cover;
+      padding: 30px;*/
 }
 
-/* line 178, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 179, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #header-cta a {
   background: #00487A;
 }
 
-/* line 181, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 182, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #header-cta2 {
   margin-top: 0;
   background-image: url(../../images/activity_header01.jpg);
@@ -8935,18 +8936,18 @@ img.lazy {
   padding: 30px;
 }
 
-/* line 187, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 188, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #header-cta2 a {
   background: #00487A;
 }
 
-/* line 190, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 191, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #locations {
   margin-top: 0;
   background-color: #C1BABF;
 }
 
-/* line 194, c:/Bode/dev/utagile/_sass/_09_elements.scss */
+/* line 195, c:/Bode/dev/utagile/_sass/_09_elements.scss */
 #locations h2 {
   text-align: center;
   color: #00487A;

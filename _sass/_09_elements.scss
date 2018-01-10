@@ -156,6 +156,7 @@ img.lazy {
 #header-subhome h2 {
     color: $primary-color;
     margin: 0 0 0 0;
+    padding: 0;
 }
 #header-subhome sup {
     color: $primary-color;
@@ -171,9 +172,9 @@ img.lazy {
 }
 #header-cta {
     margin-top: 0;
-    background-image: url(../../images/activity_header09.jpg);
+/*    background-image: url(../../images/activity_header09.jpg);
     background-size: cover;
-    padding: 30px;
+    padding: 30px;*/
 }
 #header-cta a {
     background: $ci-1;
