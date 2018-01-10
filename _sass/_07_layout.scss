@@ -265,7 +265,73 @@ body.video cite { color: #fff; }
     background: $grey-2;
 }
 
+/* Custom Frontpage
+------------------------------------------------------------------- */
+#header-subhome {
+    color: $primary-color;
+    text-align: center;
+    background-color: $ci-5;
+}
+#header-subhome h2 {
+    color: $primary-color;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+#header-subhome sup {
+    color: $primary-color;
+    font-size: xx-small;
+    vertical-align: super;
+}
+#cta {
+    background-color: $ci-2;
+}
+#cta, #cta a {
+    color: $grey-5;
+}
 
+#cta .button {
+    background: $primary-color;
+    border: 0;
+}
+#cta .button {
+    color: #fff;
+}
+#cta .button:hover {
+    background: $ci-3;
+}
+.frontpage-widget a {
+    text-align: center;
+}
+.frontpage-widget center_button {
+    text-align: center;
+    margin: 0 auto;
+}
+#header-cta {
+    margin-top: 0;
+/*    background-image: url(../../images/activity_header09.jpg);
+    background-size: cover;
+    padding: 30px;*/
+}
+#header-cta a {
+    background: $ci-6;
+}
+#header-cta2 {
+    margin-top: 0;
+    background-image: url(../../images/activity_header01.jpg);
+    background-size: cover;
+}
+#header-cta2 h2 {
+    color: $ci-6;
+}
+#locations {
+    margin-top: 0;
+    background-color: $ci-5;
+}
+#locations h2 {
+    text-align: center;
+    color: $ci-1;
+            padding: 10px;
+}
 
 /* Footer
 ------------------------------------------------------------------- */

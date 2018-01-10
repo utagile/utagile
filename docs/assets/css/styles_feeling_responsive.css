@@ -8493,16 +8493,114 @@ body.video cite {
   background: #D7D7D7;
 }
 
+/* Custom Frontpage
+------------------------------------------------------------------- */
+/* line 270, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-subhome {
+  color: #00487A;
+  text-align: center;
+  background-color: #C1BABF;
+}
+
+/* line 275, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-subhome h2 {
+  color: #00487A;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+/* line 280, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-subhome sup {
+  color: #00487A;
+  font-size: xx-small;
+  vertical-align: super;
+}
+
+/* line 285, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#cta {
+  background-color: #86A2C3;
+}
+
+/* line 288, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#cta, #cta a {
+  color: #A4A4A4;
+}
+
+/* line 292, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#cta .button {
+  background: #00487A;
+  border: 0;
+}
+
+/* line 296, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#cta .button {
+  color: #fff;
+}
+
+/* line 299, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#cta .button:hover {
+  background: #C57729;
+}
+
+/* line 302, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+.frontpage-widget a {
+  text-align: center;
+}
+
+/* line 305, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+.frontpage-widget center_button {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 309, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-cta {
+  margin-top: 0;
+  /*    background-image: url(../../images/activity_header09.jpg);
+      background-size: cover;
+      padding: 30px;*/
+}
+
+/* line 315, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-cta a {
+  background: #ffffff;
+}
+
+/* line 318, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-cta2 {
+  margin-top: 0;
+  background-image: url(../../images/activity_header01.jpg);
+  background-size: cover;
+}
+
+/* line 323, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#header-cta2 h2 {
+  color: #ffffff;
+}
+
+/* line 326, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#locations {
+  margin-top: 0;
+  background-color: #C1BABF;
+}
+
+/* line 330, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+#locations h2 {
+  text-align: center;
+  color: #00487A;
+  padding: 10px;
+}
+
 /* Footer
 ------------------------------------------------------------------- */
-/* line 273, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 339, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 #footer-content p,
 #footer-content li {
   font-size: 0.8125rem;
   font-weight: 300;
 }
 
-/* line 279, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 345, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 #footer {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -8510,12 +8608,12 @@ body.video cite {
   color: #fff;
 }
 
-/* line 286, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 352, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 #footer a {
   color: #ffffff;
 }
 
-/* line 289, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 355, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 #footer h4,
 #footer h5 {
   letter-spacing: 1px;
@@ -8525,38 +8623,38 @@ body.video cite {
 
 /* Subfooter
 ------------------------------------------------------------------- */
-/* line 301, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 367, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 #subfooter {
   background: #313131;
   color: #7E7E7E;
   padding-top: 30px;
 }
 
-/* line 307, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 373, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 #subfooter-left ul.inline-list {
   float: left;
 }
 
-/* line 311, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 377, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .credits a {
   color: #7E7E7E;
   border: 0;
   text-transform: uppercase;
 }
-/* line 315, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 381, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .credits a:hover {
   color: #fff;
 }
 
-/* line 320, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 386, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .social-icons {
   margin-bottom: 10px !important;
 }
-/* line 324, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 390, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .social-icons li {
   padding: 0 0 20px 0;
 }
-/* line 327, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 393, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .social-icons a {
   font-size: 1.4375rem;
   display: block;
@@ -8566,7 +8664,7 @@ body.video cite {
   background: #7E7E7E;
   text-align: center;
 }
-/* line 335, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 401, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .social-icons a:hover {
   background: #313131;
   color: #fff;
@@ -8574,98 +8672,98 @@ body.video cite {
 
 /* CSS-Classes to add margin at top or bottom
 ------------------------------------------------------------------- */
-/* line 347, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 413, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t10 {
   margin-top: 10px !important;
   text-align: center;
 }
 
-/* line 348, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 414, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t15 {
   margin-top: 15px !important;
 }
 
-/* line 349, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 415, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t20 {
   margin-top: 20px !important;
 }
 
-/* line 350, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 416, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t30 {
   margin-top: 30px !important;
 }
 
-/* line 351, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 417, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t50 {
   margin-top: 50px !important;
 }
 
-/* line 352, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 418, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t60 {
   margin-top: 60px !important;
 }
 
-/* line 353, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 419, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t70 {
   margin-top: 70px !important;
 }
 
-/* line 354, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 420, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t80 {
   margin-top: 80px !important;
 }
 
-/* line 355, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 421, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .t90 {
   margin-top: 90px !important;
 }
 
-/* line 357, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 423, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .b15 {
   margin-bottom: 15px !important;
 }
 
-/* line 358, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 424, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .b20 {
   margin-bottom: 20px !important;
 }
 
-/* line 359, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 425, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .b30 {
   margin-bottom: 30px !important;
 }
 
-/* line 360, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 426, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .b60 {
   margin-bottom: 60px !important;
 }
 
-/* line 362, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 428, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .l15 {
   margin-left: 15px !important;
 }
 
-/* line 363, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 429, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .r15 {
   margin-right: 15px !important;
 }
 
-/* line 365, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 431, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .pl20 {
   padding-left: 20px !important;
 }
 
-/* line 366, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 432, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .pr5 {
   padding-right: 5px !important;
 }
 
-/* line 367, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 433, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .pr10 {
   padding-right: 10px !important;
 }
 
-/* line 368, c:/Bode/dev/utagile/_sass/_07_layout.scss */
+/* line 434, c:/Bode/dev/utagile/_sass/_07_layout.scss */
 .pr20 {
   padding-right: 20px !important;
 }
@@ -8881,77 +8979,6 @@ img.lazy {
   -o-transition: opacity 0.7s;
   transition: opacity 0.7s;
   opacity: 1;
-}
-
-/* line 151, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-subhome {
-  color: #00487A;
-  text-align: center;
-  background-color: #C1BABF;
-}
-
-/* line 156, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-subhome h2 {
-  color: #00487A;
-  margin: 0 0 0 0;
-  padding: 0;
-}
-
-/* line 161, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-subhome sup {
-  color: #00487A;
-  font-size: xx-small;
-  vertical-align: super;
-}
-
-/* line 166, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-.frontpage-widget a {
-  text-align: center;
-}
-
-/* line 169, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-.frontpage-widget center_button {
-  text-align: center;
-  margin: 0 auto;
-}
-
-/* line 173, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-cta {
-  margin-top: 0;
-  /*    background-image: url(../../images/activity_header09.jpg);
-      background-size: cover;
-      padding: 30px;*/
-}
-
-/* line 179, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-cta a {
-  background: #00487A;
-}
-
-/* line 182, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-cta2 {
-  margin-top: 0;
-  background-image: url(../../images/activity_header01.jpg);
-  background-size: cover;
-  padding: 30px;
-}
-
-/* line 188, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#header-cta2 a {
-  background: #00487A;
-}
-
-/* line 191, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#locations {
-  margin-top: 0;
-  background-color: #C1BABF;
-}
-
-/* line 195, c:/Bode/dev/utagile/_sass/_09_elements.scss */
-#locations h2 {
-  text-align: center;
-  color: #00487A;
-  padding: 10px;
 }
 
 /* Syntax highlighting styles

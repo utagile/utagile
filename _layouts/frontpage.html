@@ -16,7 +16,7 @@ format: frontpage
             <h2>Uniting and Empowering Utah's Agile Community<sup>TM</sup></h2>
         </div>
     </div>
-    
+</div>    
 {% comment %}
 *
 * First check, if there is a call for action-button
@@ -28,28 +28,14 @@ format: frontpage
 {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
 {% endif %}
 {% if page.callforaction %}
-    <div class="row t60 b60">
-        <div class="small-12 text-center columns">
+<div id="cta">
+    <div class="row">
+        <div class="small-12 text-center columns t30">
             <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
-    </div>
+</div>       
 {% endif %}
-
-
-<div id="official">     
-    <div class="row">
-        <div class="small-4 columns">
-            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/scrumalliance.png" ></a>
-        </div>
-        <div class="small-4 columns">
-            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_alliance.png" ></a>
-        </div>
-        <div class="small-4 columns">
-            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_network.png" ></a>
-        </div>
-    </div>
-</div>
 
 
 {% comment %}
@@ -57,6 +43,9 @@ format: frontpage
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
+<div class="row">
+   <div class="text-center small-12 columns t20"><h2>We offer meetups for all agile interests</h2></div>
+</div>
 <div class="row t60">
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
@@ -85,18 +74,37 @@ format: frontpage
 {% endif %}
 {% if page.callforaction %}
 <div id="header-cta2">
-    <div class="row t60 b60">
+   <div id="official">     
+    <div class="row">
+        <div class="small-12 text-center columns t10">
+            <h2>We are the official agile meetup for Utah</h2>
+        </div>
+    </div>
+           <div class="row">
+        <div class="small-4 columns">
+            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/scrumalliance.png" ></a>
+        </div>
+        <div class="small-4 columns">
+            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_alliance.png" ></a>
+        </div>
+        <div class="small-4 columns">
+            <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_network.png" ></a>
+        </div>
+    </div>
+</div>
+    <div class="row t40 b60">
         <div class="small-12 text-center columns">
             <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 </div>
 {% endif %}
+
 <div id="locations">
-<div class="row t60">
-    <h2>Find a location near you</h2>
+<div class="row">
+    <div class="small-12 text-center columns t30"><h2>Find a location near you</h2></div>
 </div>
-<div class="row t60">
+<div class="row t10">
     <div class="small-4 columns">
         <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slc.png"></a>
     </div>
