@@ -20,7 +20,11 @@
 	<script>
 		WebFont.load({
 			google: {
-				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+				families: [ 'Lato:400,700,400italic:latin',
+                           'Volkhov::latin', 
+                           'Itim:400,700,400italic:latin', 
+                           'Lemon:400,700,400italic:latin',
+                          'Permanent Marker::latin']
 			}
 		});
 	</script>

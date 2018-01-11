@@ -12,8 +12,8 @@ format: frontpage
 
 <div id="header-subhome">
     <div class="row">
-        <div class="small-12 columns">
-            <h2>Uniting and Empowering Utah's Agile Community<sup>TM</sup></h2>
+        <div class="small-12 columns t10 b10">
+            <h1 class="fancy">Uniting and Empowering Utah's Agile Community<sup>TM</sup></h1>
         </div>
     </div>
 </div>    
@@ -43,8 +43,8 @@ format: frontpage
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
-<div class="row">
-   <div class="text-center small-12 columns t20"><h2>We offer meetups for all agile interests</h2></div>
+<div class="row text-center">
+   <div class="text-center small-12 columns t20"><h2 class="fancy">We offer meetups for all agile interests</h2></div>
 </div>
 <div class="row t60">
 	{% if page.widget1.title %}
@@ -74,13 +74,12 @@ format: frontpage
 {% endif %}
 {% if page.callforaction %}
 <div id="header-cta2">
-   <div id="official">     
     <div class="row">
-        <div class="small-12 text-center columns t10">
-            <h2>We are the official agile meetup for Utah</h2>
+        <div class="small-12 text-center columns t10 b20">
+            <h2 class="fancy">We are the official agile meetup for Utah</h2>
         </div>
     </div>
-           <div class="row">
+    <div class="row">
         <div class="small-4 columns">
             <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/scrumalliance.png" ></a>
         </div>
@@ -91,8 +90,7 @@ format: frontpage
             <a href="" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/agile_network.png" ></a>
         </div>
     </div>
-</div>
-    <div class="row t40 b60">
+    <div class="row t10 b10">
         <div class="small-12 text-center columns">
             <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
         </div><!-- /.small-12.columns -->
@@ -102,7 +100,7 @@ format: frontpage
 
 <div id="locations">
 <div class="row">
-    <div class="small-12 text-center columns t30"><h2>Find a location near you</h2></div>
+    <div class="small-12 text-center columns"><h2 class="fancy">Find a location near you</h2></div>
 </div>
 <div class="row t10">
     <div class="small-4 columns">
@@ -118,10 +116,10 @@ format: frontpage
 </div>
 
 <div id="sponsors">
-<div class="row t60">
+<div class="row">
     <h2>Thanks to our many sponsors</h2>
 </div>
-<div class="row t60">
+<div class="row t20">
     <div class="small-4 columns">
         <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slc.png"></a>
     </div>

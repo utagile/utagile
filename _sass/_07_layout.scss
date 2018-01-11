@@ -90,7 +90,7 @@ body.video cite { color: #fff; }
     height: 240px;
 }
 #masthead-no-image-header #logo img {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 /* Masthead › small-only
@@ -99,7 +99,7 @@ body.video cite { color: #fff; }
 @media #{$small-only} {
     #logo img {
         /*display: none;*/
-        height: 100px;
+        height: 200px;
     }
     #masthead {
         height: 200px;
@@ -272,10 +272,8 @@ body.video cite { color: #fff; }
     text-align: center;
     background-color: $ci-5;
 }
-#header-subhome h2 {
+#header-subhome h1 {
     color: $primary-color;
-    margin: 0 0 0 0;
-    padding: 0;
 }
 #header-subhome sup {
     color: $primary-color;
@@ -290,15 +288,30 @@ body.video cite { color: #fff; }
 }
 
 #cta .button {
-    background: $primary-color;
+    background: $ci-3;
     border: 0;
 }
 #cta .button {
     color: #fff;
 }
 #cta .button:hover {
-    background: $ci-3;
+    background: $primary-color;
 }
+#header-cta2, #header-cta2 a {
+    color: $grey-5;
+}
+
+#header-cta2 .button {
+    background: $ci-3;
+    border: 0;
+}
+#header-cta2 .button {
+    color: #fff;
+}
+#header-cta2 .button:hover {
+    background: $primary-color;
+}
+
 .frontpage-widget a {
     text-align: center;
 }
@@ -324,15 +337,13 @@ body.video cite { color: #fff; }
     color: $ci-6;
 }
 #locations {
+    background-color: $ci-2;
+}
+#sponsors {
     margin-top: 0;
-    background-color: $ci-5;
+    background-image: url(../../images/activity_header02.jpg);
+    background-size: cover;
 }
-#locations h2 {
-    text-align: center;
-    color: $ci-1;
-            padding: 10px;
-}
-
 /* Footer
 ------------------------------------------------------------------- */
 

@@ -3,6 +3,7 @@
 	{% if include.widget.video %}
 		{{ include.widget.video }}
 	{% else %}
+	<div class="text-center">
 		<a href="{{ widget_url }}">
 			{% if include.widget.image %}
 				{%comment%}TODO lazy loading{%endcomment%}
@@ -13,6 +14,7 @@
 				{%comment%}</noscript>{%endcomment%}
 			{% endif %}
 		</a>
+		</div>
 	{% endif %}
 	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
 	<p>{{ include.widget.text }}</p>
